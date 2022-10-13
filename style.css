@@ -20,31 +20,44 @@
 .head-links, .head-sub {
     color: #E5E7EB;
     font-size: 18px;
-    list-style: none;
 }
 
 a {text-decoration: none;
     color:#E5E7EB;
+    font-size: 18px;
 }
 
 /* head main and sub style */
 .head-main {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 1500;
 }
 
 /* head sub */
 
-.head-image {
-
+button {
+    width: 90px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: #2882F6;
+    color: white;
 }
 
+/* image */
+
+img {
+    width: 250px;
+    height: auto:
+}
 /*--------header alignment*/
+
+/*head top align*/
 .head-top {
     display: flex;
     justify-content: space-between;
     align-content: stretch;
+    padding-bottom: 36px;
 }
 
 .head-logo {
@@ -62,4 +75,22 @@ li {
     flex; 0 1 auto;
     padding: 10px;
 }
+
+/*head body align*/
+.head-body {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 36px;
+}
+
+.left-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+    max-width: 50%;
+}
+/*---------end of header--*/
+
 
